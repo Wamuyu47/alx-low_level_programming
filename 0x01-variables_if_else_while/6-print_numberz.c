@@ -2,7 +2,7 @@
 /**
  * main - Prints numbers between 0 and 9.
  * 
- * Retuen: Always 0 (Sucess)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
