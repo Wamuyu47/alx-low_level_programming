@@ -1,3 +1,4 @@
+#include <string.h>
 #include "main.h"
 
 /**
@@ -6,10 +7,11 @@
  */
 void print_numbers(void)
 {
-	int a = 0;
+	int a;
 
-	while (a < 10)
-		_putchar(a++ + '0');
-
+	for (a = 0; a < 10; a++)
+	{
+		_putchar(a + '0');
+	}
 	_putchar('\n');
 }
